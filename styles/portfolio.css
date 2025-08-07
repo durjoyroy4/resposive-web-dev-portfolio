@@ -200,7 +200,7 @@ main section{
         display: none;
      }
      @media screen and (max-width: 576px){
-        .class-container, footer {
+       .banner, .class-container, footer {
             flex-direction: column;
         }
          .section-description02 {
@@ -227,5 +227,25 @@ main section{
           .about-items{
             flex-direction: column;
             border: 1px white solid;
+          }
+          /* header */
+          nav{
+            margin: 0 10px;
+            justify-content: flex-start;
+          }
+          nav ul li{
+            margin-right: 5px;
+          }
+          .banner{
+            margin: 20px;
+          }
+          .header{
+            background-image: none;
+          }
+          .banner-profile-pic{
+            width: 100%;
+          }
+          .btn-primary{
+            margin-bottom: 20px;
           }
      }
